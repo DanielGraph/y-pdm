@@ -1,0 +1,30 @@
+.image_logo {
+    width: 90px !important;
+}
+
+.subtitle {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+    color: green;
+}
+
+.subtitle,
+.image_logo {
+    vertical-align: top;
+    display: inline-block;
+}
+
+@media screen and (max-width: 992px) {
+    .subtitle {
+        display: none;
+    }
+}
+
+header {
+    height: auto;
+}
+
+.marge {
+    margin-right: 10em;
+}
